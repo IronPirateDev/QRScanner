@@ -1,8 +1,8 @@
-# QR Scanner ![Uploading ScanGifScanningGIF.gif…]()
+# QR Scanner 
+![Icon](https://static.thenounproject.com/png/78107-200.png)
 
 
-
-This project counts the number of humans in an image or a video.
+This project is a Example For QR scanner in JS using python
 
 ## Installation
 
@@ -11,10 +11,10 @@ Before running the code, make sure you have the following packages installed:
 1. **OpenCV (cv2)**
    - Install using the following command:
      ```bash
-     pip install opencv-python
+     pip install flask
      ```
 
-2. **MySQL Connector**
+2. **MySQL Connector** Optional
    - Install using the following command:
      ```bash
      pip install mysql-connector
@@ -28,7 +28,7 @@ Before running the code, make sure you have the following packages installed:
 
 ## How it Works
 
-The code uses OpenCV (cv2) for human detection. It analyzes the provided image or video, identifying and counting the number of humans present.
+The code uses JS for opening camera. It analyzes the live feed of it , identifying QR and extracting its data
 
 ## Contributing
 
@@ -37,3 +37,5 @@ The code uses OpenCV (cv2) for human detection. It analyzes the provided image o
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+# THANK YOU
