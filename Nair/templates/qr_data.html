@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Data</title>
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            background-color: #11261f;
+            color: #ffffff;
+            margin: 0;
+        }
+
+        h1 {
+            color: #ffffff;
+        }
+
+        p {
+            font-size: 24px;
+            margin: 20px 0;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                text-align: center;
+                background-color: #11261f;
+                color: #ffffff;
+                margin: 0;
+            }
+
+            h1 {
+                color: #ffffff;
+            }
+
+            p {
+                font-size: 24px;
+                margin: 20px 0;
+            }
+        }
+
+    </style>
+</head>
+<body class="fade-in">
+    <h1>QR Data</h1>
+    <p>Scanned QR Code: {{ code }}</p>
+</body>
+</html>
